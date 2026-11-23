@@ -1,4 +1,60 @@
+/* 全ページ共通 */
 body {
-  background-image: url("background.png");
-  background-repeat: repeat;
+    margin: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: serif;
+    font-size: 16px;
+}
+
+/* 見出し */
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+/* 昔ながらのリンク配色 */
+a:link {
+    color: #0000ee;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+/* メインページの背景 */
+body.main-page {
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    background-position: left top;
+}
+
+/* サイドパネル */
+body.sidepanel-page {
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+/* サイドパネルのリンク */
+.sidepanel-page li {
+    margin-bottom: 10px;
+}
+
+/* フッター */
+body.footer-page {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* リンク集 */
+.links-page li {
+    margin-bottom: 8px;
 }
